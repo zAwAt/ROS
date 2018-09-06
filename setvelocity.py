@@ -2,7 +2,7 @@
 # coding: utf-8
 import rospy
 from geometry_msgs.msg import Twist
-#以下の３つの
+#このプログラムはROSで動かせるロボットTurtleBotを強制的に停止させる為のプログラムです。尚、これを実行する前に以下の３つを予め実行しておくこと。
 #rosrun rviz rviz
 #roslaunch turtlebot_gazebo turtlebot_world.launch
 #roslaunch turtlebot_gazebo amcl_demo.launch
