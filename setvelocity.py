@@ -1,6 +1,11 @@
 #!/usr/bin/env python
+# coding: utf-8
 import rospy
 from geometry_msgs.msg import Twist
+#以下の３つの
+#rosrun rviz rviz
+#roslaunch turtlebot_gazebo turtlebot_world.launch
+#roslaunch turtlebot_gazebo amcl_demo.launch
 
 def main():
     pub=rospy.Publisher("/mobile_base/commands/velocity",Twist,queue_size=10)
