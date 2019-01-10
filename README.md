@@ -1,3 +1,3 @@
 # ROS
-ROSについては以下のリンクを参照してください〜<br>
+If you want to know about ROS, please click below link.<br>
 http://wiki.ros.org/ja<br>
