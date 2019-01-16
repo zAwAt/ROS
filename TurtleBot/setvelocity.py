@@ -4,7 +4,7 @@ import rospy
 from geometry_msgs.msg import Twist
 #【OS】Ubuntu 16.04.5 LTS
 #【ROS version】kinetic
-#【what is this?】test program for TurtleBot. Run below command, if you want to use this script.
+#【what is this?】test program for TurtleBot. Run with below command
 #rosrun rviz rviz
 #roslaunch turtlebot_gazebo turtlebot_world.launch
 #roslaunch turtlebot_gazebo amcl_demo.launch
